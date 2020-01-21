@@ -1,0 +1,17 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/script.js" ],
+      "matches": [ "https://*/*" , "http://*/*"]
+   } ],
+   "description": "Make for me and others colorblinds",
+   "icons": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+	  "128": "icons/icon128.png"
+   },
+   "manifest_version": 2,
+   "name": "Alternator Color Link Opened",
+   "version": "1.0",
+   "update_url": "https://clients2.google.com/service/update2/crx"
+}
